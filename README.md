@@ -1,1 +1,3 @@
 # Distributed-RAID5-File-System
+
+This project extends a Unix-like file system to support multiple servers with redundant block storage, enhancing load distribution, capacity, and fault tolerance. Implemented using a client/server architecture, it features a block layer for RAID5 parity and data reconstruction, an inode-based file system, and XML-RPC for remote procedure calls. The system includes error handling with checksum hashing, a user shell for file system interaction, and methods to ensure atomicity and prevent race conditions. Performance tests show significant improvements in read and write speeds compared to single-server systems.
